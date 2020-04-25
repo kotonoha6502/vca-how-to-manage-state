@@ -1,19 +1,17 @@
 <template>
-  <div>Hello, {{ name }}!</div>
+    <div>
+        This is about page.
+    </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
-  name: 'HelloWorld',
-  props: {
-    name: {
-      type: String,
-      default: 'World'
+    name: 'AboutPage',
+    setup() {
+        return {}
     }
-  },
-  setup(props) {
-  }
 })
+
 </script>

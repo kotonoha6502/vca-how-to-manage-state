@@ -1,0 +1,7 @@
+{
+    "todos": [
+        { "id": 1, "title": "Learn vue composition API", "done": false },
+        { "id": 2, "title": "clean my room", "done": true },
+        { "id": 3, "title": "Create very cool Todo app", "done": false }
+    ]
+}
